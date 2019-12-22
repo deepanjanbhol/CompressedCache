@@ -41,8 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cache.cs" />
     <Compile Include="ICache.cs" />
+    <Compile Include="ISystemClock.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SystemClock.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
